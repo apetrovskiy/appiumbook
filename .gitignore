@@ -308,3 +308,9 @@ obj/
 .gradle/**
 **/.gradle
 **/.gradle/
+
+Chapter2-First-Automation-Test/FirstAutomationTest/bin/
+Chapter2-First-Automation-Test/FirstAutomationTest/build/
+Chapter2-First-Automation-Test/FirstAutomationTest/.gradle/
+Chapter2-First-Automation-Test/FirstAutomationTest/.idea/
+Chapter2-First-Automation-Test/FirstAutomationTest/out/
