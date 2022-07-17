@@ -22,9 +22,9 @@ public class AndroidSampleTest {
 
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
-        dc.setCapability(MobileCapabilityType.APP, "/Users/test/Downloads/FirstAutomationTest/src/test/resources/DemoApp.apk");
-        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "c4e3f3cd");
+        dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
+        dc.setCapability(MobileCapabilityType.APP, "/Users/alexanderpetrovskiy/projects/Java/forks/appiumbook/Chapter2-First-Automation-Test/FirstAutomationTest/src/test/resources/AndroidCalculator.apk");
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
         dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 
 
