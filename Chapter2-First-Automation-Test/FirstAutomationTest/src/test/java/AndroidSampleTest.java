@@ -23,13 +23,10 @@ public class AndroidSampleTest {
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
-        System.out.println(AndroidSampleTest.class.getClassLoader().getResource("AndroidCalculator.apk").getPath());
         dc.setCapability(MobileCapabilityType.APP, AndroidSampleTest.class.getClassLoader().getResource("AndroidCalculator.apk").getPath());
         dc.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
         dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-
-
-
+        
         driver = new AndroidDriver(new URL(appiumServerURL), dc);
     }
 
