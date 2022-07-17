@@ -1,3 +1,4 @@
+/*
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
 import org.openqa.selenium.By;
@@ -40,3 +41,4 @@ public class iOSSampleTest {
         Assert.assertEquals(answer, a + b + "", "Expected and Actual Result didn't match!");
     }
 }
+*/
